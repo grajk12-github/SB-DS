@@ -1,0 +1,26 @@
+
+Capstone Project 1
+Dataset: San Francisco Police Department Incident data from Jan 1st 2015.
+Column Name	Column Type	Description
+IncidntNum	Int64	incident number
+Category	Object/string	incident category
+Descript	Object/string	Incident description
+DayOfWeek	Object/string	Incident day of the week
+Date	Object/date	Incident date
+Time	Object/string	Incident time
+PdDistrict	Object/string	Incident PD district
+Resolution	Object/string	Incident resolution
+Address	Object/string	Incident address
+X	Float64	Incident  Latitude
+Y	Float64	Incident Longitude
+Location	object	Incident location
+PdId	Int64	PD identification number
+
+Project Basic Objectives set on April 15th 2017
+1.	What are the top 3 locations for the incidents 
+2.	What are the top 3 districts  for the incidents 
+3.	What are the unique category types
+4.	Can we define sub categories from the descript column
+5.	Split the date into year, month - to plot the above with every over year, month over moth comparison
+6.	Plot incident category type on day of the week and summarize the findings, do the same for month and year
+7.	Create the heat map day of the week vs hours/month/year for each month/year
